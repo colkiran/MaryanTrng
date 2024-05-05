@@ -1,0 +1,455 @@
+Python Basics
+--------------
+10
+
+
+PYTHON
+------
+1. SDK - Sofware Development Kit - necessary libraries to execute your python code
+
+2. Python Shell - Interactive environment (interpreter always on)
+
+3. IDLE - Editor for python
+
+
+Code - excute 
+
+1. compiled - C, C++, Dotnet
+
+source  	Ojbect		   (byte code)Executable
+code    ---->   code	   ---->   code (.exe file)
+
+
+2. interpreted
+
+
+Scripting tools
+----------------
+Open Source - source code for the technology is free
+
+Python, Perl, Ruby, Lua, Scala
+-------------------------------
+
+python - source code is free
+
+
+Primary Data types
+------------------
+1. Numbers
+   a. integers - no fractional values
+   b. float	- 10.5, 8.2, 9.0, 12.6
+   c. complex - 10 + 3j
+
+Deprecated - long data type in numbers - 23409234902820348098L
+
+2. Strings
+3. Boolean
+
+len function
+-------------
+works on strings and arrays
+
+5 = len("hello")
+
+a = 1234
+
+str(a) => "1234"
+
+len(a) = 4
+
+
+len(str(a))
+
+len("1234")
+
+int(a)
+
+-----------------------------------------------------------------
+Two operators that are overloaded
+---------------------------------
+
++ => addition, concatenation
+
+concatenation
+-------------
+x = "hello"
+
+y = "world"
+
+print(x + y) = "helloworld"
+
+
+* - multiplication, print a string n number of times
+
+Python data structures
+-----------------------
+lists
+dictionaries
+tuples
+sets
+
+
+---------------------------------------------------------
+
+Data structures
+---------------
+arrays in python
+
+ALI / Sudhakar - data 
+
+
+
+-------------------------------------------------------------------------
+
+Python Repository
+-----------------
+All necessary libraries are stored in this location (.whl - Wheel files) 
+
+
+Buffer the wheel files (.whl) from the repository and install it in your machine, once installed then the buffer is cleared.
+
+
+Command to delete the virtual Environment
+-----------------------------------------
+rm -rf Kiran_VirEnv
+
+
+Coding Rules
+------------
+#! - shebang - specify the path of python executable 
+
+#! /usr/bin - Linux
+
+C:\Users\Kiran\AppData\Local\Programs\Python\Python311
+
+
+comments
+--------
+# - used to comment a line - single line comment
+
+
+strings  are enclosed in " " or ' '
+
+mystr = "This is a sample string"
+
+mystr = 'This is a sample string'
+
+multiple line string
+
+mystr = """
+	This is the first line
+	This is the second line
+	This is the third line
+"""
+
+'''
+	This is the first line
+	This is the second line
+	This is the third line
+'''
+
+"this is a string"
+
+Docstrings - Functions
+
+Indentation(single tab)
+-----------
+
+def fun():
+
+    print("Hello World")
+    print("Hello World")
+	
+print("Hello World")
+
+
+Primitive Data Types
+--------------------
+1. Numbers
+  a. integers
+  b. float
+  c. complex
+
+2. Strings
+3. Boolean
+
+
+During compilation
+-------------------
+static
+
+C code
+------
+int i;
+string a;
+
+i = 10
+a = "hello"
+
+
+
+
+During execution(runtime)
+-------------------------
+dynamic
+
+Interpretation
+--------------
+a = 10  	# a is an integer var
+--
+---
+---
+
+a = "hello"   	# a is a string var
+---
+---
+---
+
+a = True     	# a is Boolean var
+
+
+60 spaces - conversion center
+
+
+60 - 10 = 50
+
+25 spaces conversion 25 spaces
+
+
+True 	= 1
+False 	= 0
+
+
+Python (Guido van Russum), Perl (larry wall), Scala, Ruby (matz)
+-----------------------------------------------------------------
+
+language features - variables, loops, if, functions
+
+python - similar to C
+
+OOPS - Object Oriented Programming 
+
+python - C++, Dotnet and Java
+
+
+
+
+sofa set
+--------
+recliner 	- 	Italian leather, motorized (bosch)
+
+Branded store
+-------------
+recliner 	-
+
+
+-------------------------------------------------------------------
+
+Binary number
+-------------
+0b 11
+
+  1       +	  1
+2 ** 1   	2 ** 0
+
+2 + 1 = 3
+
+-------------------------
+101
+
+2 ** 2 + 0 ** 1 + 2 ** 0
+
+
+4 + 1 = 5
+
+-----------------------------------------------
+OR
+t or t = t
+t or f = t
+f or t = t
+f or f = f
+
+OR operator
+-----------
+0101		2 ** 
+0011
+----
+0111
+
+2 ** 2 + 2 ** 1 + 2 ** 0
+
+4 + 2 + 1
+
+7
+
+and
+---
+t and t = t
+t and f = f
+f and t = f
+f and f = f
+
+and operator
+------------
+
+0101
+0011
+----
+0001
+
+2 ** 0
+
+1
+
+--------------------
+
+left shift operator
+
+0101
+
+1010   => 2 ** 3 + 2 ** 1 = 8 + 2 = 10
+
+
+8  - 1000
+
+10000 -  2 ** 4 = 16
+
+
+Right shift operator
+--------------------
+
+10000 >> 1000
+
+0101 >> 0010
+
+-----------------------------------------------------------------------------------------------------------
+Loops and Control Structures
+----------------------------
+
+Loops 
+-----
+1. for loop
+2. while loop
+
+
+FOR LOOP
+--------
+for loop is same as for each loop in other technologies
+
+for each loop it depends on a collection of objects
+
+for i in range(1, 10):
+
+
+range(1, 10)  - starts from 1 goes up to  values less than 10 (9)
+
+1...9
+
+range(start_value, end_value, incr_by) - incr_by is 1 by default
+
+Print function
+--------------
+
+print(data, sep=, end="\n")
+
+
+print data in the same line
+---------------------------
+print(data, end = "")
+
+
+Loops
+-----
+1. continue	-	Skip the current iteration
+2. break	-	stop the iteration
+3. else		-
+
+
+try these problems
+------------------
+
+1. 1
+   2 3
+   4 5 6
+   7 8 9 10
+
+2.    1 
+     1 2
+    1 2 3
+   1 2 3 4
+  1 2 3 4 5
+   1 2 3 4
+    1 2 3
+     1 2
+      1
+
+3.  1 2 3 4 5
+     1 2 3 4
+      1 2 3
+       1 2
+        1
+       2 1
+      3 2 1
+     4 3 2 1
+    5 4 3 2 1
+
+
+4. write a code to generate prime numbers between 150 and 50
+
+5. write a code to generate fibanocci series
+
+6. write a code to find the next number
+
+     1=1!
+     2=2!
+    145=1!+4!+5!
+    	1 + 24 + 120
+	145
+
+what is the next number that satisfies this condition
+
+
+7. farmer -> 3 daughters -> each daughter had a son
+        farmer had  mangoes in a room
+        farmer promises his daughters that he is going distribute mangoes to them equally in the evening after his shopping.
+        In the absence of the father 1st daughter enters the room without the knowledge of her siblings
+	She makes three divisions of the available mangoes in the room and 1 mango was extra she gives that to her child, takes 1 division(heap) and mixes other two divsions and leaves the room.
+	Now 2nd daughter same idea and same execution
+	Now 2rd daughter same idea and same execution
+       Finally the father enters the room and finds some mangoes and distributes it as he promised.
+
+  how many mangoes were there in the room? num1,num2,num3
+
+8. write a code to generate armstrong series
+
+
+
+--------------------------------------------------
+
+farmer had 3  daughters
+
+
+1  -  3 parts -  1 reminder - took 1 part and mixed the remaining mangoes
+
+2  -  3 parts -  1 reminder - took 1 part and mixed the remaining mangoes
+
+3  -  3 parts -  1 reminder - took 1 part and mixed the remaining mangoes
+
+farmer - -  3 parts and distributed it among the daughters 
+
+find 3 such numbers
+
+
+50 / 3 - first three times should get 1 reminder
+
+for
+
+
+
+
+
+
+
+
+
+
