@@ -1,0 +1,50 @@
+Strings
+-------
+In python strings are immutable (cannot change once assigned).
+
+
+st = "hello world"
+
+st = "Hello World"
+
+
+string class
+------------
+
+class String:
+
+   # constructor
+   def __init__(self, st):
+	self.st = st
+
+
+
+   # getter method (disp)
+   def get_str(self):
+	return self.st
+
+
+   # setter method (modification)
+   def set_str(self, s):
+	self.st = s
+
+
+st1 = String("hello world")
+
+st1.get_str()	
+
+
+any object that is immutable that class will not have a setter method
+
+
+--------------------------------------------------------------------------------------------------
+
+st = "hello world"
+
+
+
+
+
+
+
+

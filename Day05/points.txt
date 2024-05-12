@@ -1,0 +1,26 @@
+Assignment
+----------
+st = "1234hello6789"
+st = 289374293847bangalore892374092384"
+
+# get the string 'hello' from the above
+
+
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
+
+
+Python Data Structures
+---------------------
+1. lists
+2. dictionary
+3. tuple
+4. set
+
