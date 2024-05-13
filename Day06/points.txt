@@ -1,0 +1,57 @@
+Data Structures
+---------------
+1. Lists
+
+Lists are same as arrays. 
+
+	a. arrays are collection of homogenous data
+	b. memory allocation is contigious
+
+	Lists
+	-----
+	a. Lists are collection of heterogenous data
+	b. Memory allocation is not contigious
+	c. Lists are ordered collection of data
+	d. Lists are mutable
+	e. lists are enclosed in [ ] 
+
+functions to manipulate a list
+------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+add new elements 
+----------------
+a. append
+b. extend
+c. insert
+
+remove elements from a list
+---------------------------
+1. pop
+2. remove
+3. clear
+
+copy
+----
+
+
+2. Dictionary
+
+3. Tuple
+
+4. Set
+
+
+
+a = 1, 2, 3, 4, 5
+
+gets stored = 3, 2, 5, 1, 4
+
+
+Assignment
+----------
+use remove function and remove all 2's from the list
+
+l1 = [1, 2, 1, 2, 2, 2, 1, 2, 3, 1, 2, 1, 1, 1, 1, 1, 1, 2, 3, 1, 2, 2, 2, 2, 2, 2, 1, 2, 3, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+
+
