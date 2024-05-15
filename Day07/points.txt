@@ -1,0 +1,41 @@
+Dictionary
+----------
+they also called as associative arrays
+
+array elements are indexed
+
+every element of the dictionary is associated with a key
+
+index  	0   1   2   3   4
+values  a   b   c   d   e
+
+
+dictionary {0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+keys in a dictionary is user defined
+keys are always unique
+
+dictionary are unordered collection
+dictionaries are mutable
+dictionaries are enclosed in { }
+
+connection string = {host: ip, username: usr, pwd: pswd, portno: 3306, dbname: players}
+
+functions to manipulate dictionaries
+
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+keys
+----
+will extract all the keys from the dictionary
+
+copy with dictionary
+
+
+
+
+
+
+
+
