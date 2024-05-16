@@ -1,0 +1,45 @@
+List - sort and reverse
+------------------------
+
+
+Tuple
+-----
+immutable list
+tuples are enclosed in ()
+
+
+Set
+---
+1. set is an unordered collection - 1, 2, 3 = > 3, 1, 2
+2. sets are always unique
+3. sets are mutable
+4. sets are not subscriptable  -cannot be indexed
+5. sets are enclosed in { }
+
+add    - one element
+update - multiple elements
+
+pop 	-
+remove 	-
+discard	-
+
+
+Lists
+Dictionaries
+Tuples
+Sets
+
+
+Functions
+---------
+
+
+
+
+
+
+
+
+
+
+
